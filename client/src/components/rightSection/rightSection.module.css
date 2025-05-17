@@ -1,0 +1,97 @@
+.rightSideContainer {
+  width: 27%;
+  height: 100%;
+  border: 0.1rem solid #f0481b;
+}
+
+.rightTopSection {
+  width: 100%;
+  height: 40%;
+  display: grid;
+  place-items: center;
+}
+
+.img {
+  width: 45%;
+  filter: blur(0.2rem);
+}
+
+.rightBottomSection {
+  width: 100%;
+  height: 60%;
+}
+
+.customize {
+  width: 100%;
+  height: 10%;
+  background-color: #054871;
+  color: white;
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  padding: 0 5% 0 5%;
+  box-sizing: border-box;
+  gap: 5%;
+}
+
+.shapes,
+.frames,
+.shapes,
+.logo,
+.colors {
+  width: 100%;
+  height: 10%;
+  background-color: #fff6f2;
+  color: #054871;
+  display: grid;
+  place-content: center;
+  font-weight: bold;
+  font-family: roboto;
+  border-bottom: 0.1rem solid #054871;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5% 0 5%;
+  box-sizing: border-box;
+}
+
+.btns {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4%;
+}
+
+.btns button {
+  width: 40%;
+  height: 60%;
+  border: 0.2rem solid #054871;
+  border-radius: 1rem;
+  font-weight: bold;
+  font-family: roboto;
+  color: white;
+  background-color: #f0481b;
+  display: flex;
+  gap: 5%;
+  align-items: center;
+  justify-content: center;
+}
+
+.btns button:hover {
+  scale: 1.1;
+}
+
+.icon {
+  height: 25px;
+  width: 25px;
+}
+
+.subField {
+  width: 100%;
+  height: 25%;
+  background-color: #054871;
+}

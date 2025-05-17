@@ -1,0 +1,25 @@
+.img {
+  width: 90%;
+  height: 60%;
+  transform: translateY(5vh);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.img h2,
+p,
+input {
+  margin-bottom: 1rem;
+}
+
+.img input::file-selector-button {
+  background-color: #f0481b;
+  border: none;
+  color: white;
+  height: 3vh;
+  border: 0.2rem solid #054871;
+  border-radius: 0.5rem;
+}

@@ -1,0 +1,21 @@
+.text {
+  width: 90%;
+  height: 60%;
+  transform: translateY(5vh);
+}
+
+.text form {
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  width: 70%;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+textarea::placeholder {
+  font-family: roboto;
+  font-size: 1rem;
+}

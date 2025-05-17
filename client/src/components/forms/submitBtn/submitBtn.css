@@ -1,0 +1,14 @@
+.submitBtn {
+  width: 35%;
+  height: 7vh;
+  border-radius: 1rem;
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: white;
+  border: 0.3rem solid #054871;
+  background-color: #f0481b;
+}
+
+.submitBtn:hover {
+  scale: 1.05;
+}

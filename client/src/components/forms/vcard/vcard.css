@@ -1,0 +1,44 @@
+.vcard {
+  width: 90%;
+  transform: translateY(2vh);
+}
+
+form {
+  width: 100%;
+}
+
+.vcardContainer {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  gap: 5%;
+  margin-bottom: 1rem;
+}
+
+.vcardLeft {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.vcardRight {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+b {
+  display: block;
+  margin: 0.2rem 0 0.2rem 0;
+  font-family: roboto;
+}
+
+.vcard input {
+  width: 90%;
+  height: 3.2vh;
+  margin-bottom: 0;
+}

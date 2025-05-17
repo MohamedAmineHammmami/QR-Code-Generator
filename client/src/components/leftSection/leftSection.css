@@ -1,0 +1,91 @@
+.leftSideContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+
+.dataTypes {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.type {
+  width: 9%;
+  border: 1px solid black;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  row-gap: 0.5rem;
+  position: relative;
+  border: 0.1rem solid #f0481b;
+}
+
+.activeType {
+  background-color: #fff6f2;
+  scale: 1.1;
+}
+
+.activeType::after {
+  height: 10%;
+  width: 100%;
+  content: "";
+  background-color: #f0481b;
+  position: absolute;
+  bottom: 0;
+  animation: rubberBand 150ms ease;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+  color: #054871;
+}
+
+span {
+  font-family: roboto;
+  font-weight: bold;
+  color: #054871;
+}
+
+@keyframes rubberBand {
+  from {
+    transform: transition width;
+    width: 0%;
+  }
+
+  30% {
+    transform: transition width, height;
+    width: 30%;
+  }
+
+  40% {
+    transform: transition width, height;
+    width: 40%;
+  }
+
+  50% {
+    transform: transition width, height;
+    width: 60%;
+  }
+
+  65% {
+    transform: transition width, height;
+    width: 65%;
+  }
+
+  75% {
+    transform: transition width, height;
+    width: 75%;
+  }
+
+  to {
+    transform: transition width, height;
+    width: 100%;
+  }
+}

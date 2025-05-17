@@ -1,0 +1,19 @@
+.email {
+  width: 90%;
+  height: 60%;
+  transform: translateY(5vh);
+}
+
+.email div {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  gap: 10%;
+}
+
+.email input {
+  width: 70%;
+  height: 4vh;
+  border-radius: 0.4rem;
+  margin-bottom: 1rem;
+}

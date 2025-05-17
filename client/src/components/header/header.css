@@ -1,0 +1,17 @@
+.headerContainer {
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: roboto;
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: #f0481b;
+  background-color: white;
+  border-radius: 0.5rem;
+  border: 0.125rem solid #c4c4c4;
+  padding: 1rem;
+}
